@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+.contact-card{
+    display: inline-flex;
+   text-align: center;
+    flex-direction: column;
+    padding:10% 10% 5% 10%;
+}
+.btn{
+    padding:5% ;
+    margin: 5%;
+    gap: 20px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9feeee;
+    border: solid 1px white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: black;
+}
+
+.image--holder{
+   display: inline-grid;
+   place-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.image--holder img{
+    height: 200px;
+    border-radius: 50%;
+    border: solid #9feeee ;
+    padding: 5px;
+}
+.btn a{
+    color:inherit;
+    font-weight: 600;}
+.btn i {
+    color:inherit;
+    font-weight: 600;}
